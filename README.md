@@ -25,59 +25,60 @@ It is a business critical requirement to understand the value derived from a cus
 
 1. Perform a preliminary data inspection and Data cleaning
 
-  a. Check for missing data and formulate apt strategy to treat them.
+  ・ Check for missing data and formulate apt strategy to treat them.
 
-  b. Are there any duplicate data records? Remove them if present.
+  ・ Are there any duplicate data records? Remove them if present.
 
-  c. Perform Descriptive analytics on the given data.
+  ・ Perform Descriptive analytics on the given data.
 
 2. Cohort Analysis: A cohort is a group of subjects who share a defining characteristic. We can observe how a cohort behaves across time and compare it to other cohorts.
 
-  a. Create month cohorts and analyse active customers for each cohort.
+  ・ Create month cohorts and analyse active customers for each cohort.
 
-  b. Also Analyse the retention rate of customers. Comment.
+  ・ Also Analyse the retention rate of customers. Comment.
 
 3. Build a RFM model – Recency Frequency and Monetary based on their behaviour.
-  a. Calculate RFM metrics.
+   
+  ・ Calculate RFM metrics.
 
-    i. Recency as the time in no. of days since last transaction
+    **i.** Recency as the time in no. of days since last transaction
 
-    ii. Frequency as count of purchases done
+    **ii.** Frequency as count of purchases done
 
-    iii. Monetary value as total amount spend
+    **iii**. Monetary value as total amount spend
 
-  b. Build RFM Segments.
+  ・ Build RFM Segments.
 
-    i. Give Recency Frequency and Monetary scores individually by dividing them in to quartiles.
+    **i.** Give Recency Frequency and Monetary scores individually by dividing them in to quartiles.
 
-    ii. Combine three ratings to get a RFM segment (as strings)
+    **ii.** Combine three ratings to get a RFM segment (as strings)
 
-    iii. Get the RFM score by adding up the three ratings.
+    **iii.** Get the RFM score by adding up the three ratings.
 
-  c. Analyse the RFM Segments by summarizing them and comment on the findings.
+  ・ Analyse the RFM Segments by summarizing them and comment on the findings.
 
 4. Create clusters using k means clustering algorithm.
 
-  a. Prepare the data for the algorithm.
+  ・ Prepare the data for the algorithm.
 
-    i. If the data is Un Symmetrically distributed, manage the skewness with appropriate transformation.
+   ** i.** If the data is Un Symmetrically distributed, manage the skewness with appropriate transformation.
 
-    ii. Standardize / scale the data.
+    **ii.** Standardize / scale the data.
 
-  b. Decide the optimum number of clusters to be formed
+  ・ Decide the optimum number of clusters to be formed
 
-  c. Analyse these clusters and comment on the results.
+  ・ Analyse these clusters and comment on the results.
 
 5. Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:
 
-  a) Country-wise analysis to demonstrate Average spend. Use a bar chart show monthly figures.
+  ・ Country-wise analysis to demonstrate Average spend. Use a bar chart show monthly figures.
 
-  b) Bar graph of top 15 products which are mostly ordered by the users to show the number of products sold.
+  ・ Bar graph of top 15 products which are mostly ordered by the users to show the number of products sold.
 
-  c) Bar graph to show the count of orders Vs. hours throughout the day. What are the peak hours per your chart?
+  ・ Bar graph to show the count of orders Vs. hours throughout the day. What are the peak hours per your chart?
 
-  d) Plot the distribution of RFM values using histogram and frequency-charts.
+  ・ Plot the distribution of RFM values using histogram and frequency-charts.
 
-  e) Plot error(cost) vs no of clusters selected
+  ・ Plot error(cost) vs no of clusters selected
 
-  f) Visualize to compare the RFM values of the clusters using heatma
+  ・ Visualize to compare the RFM values of the clusters using heatma
